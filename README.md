@@ -11,7 +11,18 @@ Demo Android application utilizing quantized [MobileNetV3](https://github.com/Bi
 Android 5.0 Lollipop (API 21)
 
 ## Installation instructions
-Open in [Android Studio](https://developer.android.com/studio/) and click `Run`. 
+Open in [Android Studio](https://developer.android.com/studio/) and click `Run`.
+
+## Model details
+MobileNetV3 small with depth multiplier 1.0 and input image size 128x128.
+
+### Test accuracy
+0.9674
+
+### Confusion matrix
+<p align="center">
+<img src="https://i.imgur.com/fkxY7Ss.png" />
+</p>
 
 ## License
 
